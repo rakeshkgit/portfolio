@@ -1,0 +1,31 @@
+/*Layout custom Css */
+@font-face {
+	font-family: 'Knowledge-Regular';
+	src: url('../fonts/Knowledge-Regular.eot');
+	src: local('☺'), url('../fonts/Knowledge-Regular.woff') format('woff'), url('../fonts/Knowledge-Regular.ttf') format('truetype'), url('../fonts/Knowledge-Regular.svg') format('svg');
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Knowledge-Medium';
+	src: url('../fonts/Knowledge-Medium.eot');
+	src: local('☺'), url('../fonts/Knowledge-Medium.woff') format('woff'), url('../fonts/Knowledge-Medium.ttf') format('truetype'), url('../fonts/Knowledge-Medium.svg') format('svg');
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Knowledge-Light';
+	src: url('../fonts/Knowledge-Light.eot');
+	src: local('☺'), url('../fonts/Knowledge-Light.woff') format('woff'), url('../fonts/Knowledge-Light.ttf') format('truetype'), url('../fonts/Knowledge-Light.svg') format('svg');
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Knowledge-Bold';
+	src: url('../fonts/Knowledge-Bold.eot');
+	src: local('☺'), url('../fonts/Knowledge-Bold.woff') format('woff'), url('../fonts/Knowledge-Bold.ttf') format('truetype'), url('../fonts/Knowledge-Bold.svg') format('svg');
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Knowledge-Black';
+	src: url('../fonts/Knowledge-Black.eot');
+	src: local('☺'), url('../fonts/Knowledge-Black.woff') format('woff'), url('../fonts/Knowledge-Black.ttf') format('truetype'), url('../fonts/Knowledge-Black.svg') format('svg');
+	font-style: normal;
+}

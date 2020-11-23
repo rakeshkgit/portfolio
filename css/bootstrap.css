@@ -12923,6 +12923,7 @@ body {
         padding-top: 120px;
     }
   }
+ .banner_content {text-transform: uppercase;} 
 .gmapBox {margin-top:50px}
 .rakesh-kohli-logo { position:relative; width:40px; height:40px; border-radius:50%; background-color:#168dff; margin-top:-10px}
 .rakesh-kohli-logo:before {content:""; background-color:#fff; position:absolute; top:10px; left:10px; width:6px; height:6px; border-radius:50%; }
@@ -12932,3 +12933,23 @@ body {
 background: linear-gradient(90deg, rgba(249,249,253,1) -70%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(249,249,253,1) 45%, rgba(249,249,253,1) 55%, rgba(255,255,255,1) 100%);
 }
 .feature_item .fa {font-size: 50px; color: #168dff; margin-bottom: 15px;}
+.designation{
+    border-right: 2px solid rgba(0,0,0,1);
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+/* Animation */
+.anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }

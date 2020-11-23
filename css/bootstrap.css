@@ -10026,7 +10026,16 @@ body {
             border-radius: 50%;
             object-fit: contain;
             border:15px solid #f2f2f2;
-	    width:100%;
+	        width:100%;
+        }
+        .rakesh-kohli-img img:nth-child(2) {
+            display: none;
+        }
+        .rakesh-kohli-img:hover img:nth-child(2) {
+            display: block;
+        }
+        .rakesh-kohli-img:hover img:nth-child(1) {
+            display: none;
         }
         @media (max-width: 1480px) {
           .banner_section .banner_inner .rakesh-kohli-img img {

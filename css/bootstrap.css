@@ -12902,27 +12902,7 @@ body {
   ============================================================================================ */
   /*# sourceMappingURL=style.css.map */
 
-  @media (max-width: 767px) {
-    .banner_section .banner_inner {
-        padding: 0px;
-    }
-    .banner_section .banner_inner .banner_content {
-        height: 100vh;
-        padding: 100px 0 0 0px;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .client-info .lage {
-        font-size: 70px;
-    }
-    .about_area, .client-info {
-        padding-top: 0px;
-    }
-    .features_area, .portfolio_area, .contact_area {
-        padding-top: 120px;
-    }
-  }
+
  .banner_content {text-transform: uppercase;} 
 .gmapBox {margin-top:50px}
 .rakesh-kohli-logo { position:relative; width:40px; height:40px; border-radius:50%; background-color:#168dff; margin-top:-10px}
@@ -12952,4 +12932,29 @@ background: linear-gradient(90deg, rgba(249,249,253,1) -70%, rgba(255,255,255,1)
   @keyframes blinkTextCursor{
     from{border-right-color: rgba(0,0,0,.0.5);}
     to{border-right-color: transparent;}
+  }
+
+  @media (max-width: 767px) {
+    .banner_section .banner_inner {
+        padding: 0px;
+    }
+    .banner_section .banner_inner .banner_content {
+        height: 100vh;
+        padding: 100px 0 0 0px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .client-info .lage {
+        font-size: 70px;
+    }
+    .about_area, .client-info {
+        padding-top: 0px;
+    }
+    .features_area, .portfolio_area, .contact_area {
+        padding-top: 120px;
+    }
+  }
+  @media (max-width: 399px) {
+
   }

@@ -12546,6 +12546,7 @@ body {
     .banner_section .banner_inner .banner_content h2 {
       font-size: 36px;
       line-height: 45px; } }
+
   @media (max-width: 991px) {
     /* Main Menu Area css
     ============================================================================================ */
@@ -12914,7 +12915,8 @@ body {
 
  .banner_content {text-transform: uppercase;} 
 .gmapBox {margin-top:50px}
-.rakesh-kohli-logo { position:relative; width:40px; height:40px; border-radius:50%; background-color:#168dff; margin-top:-10px}
+.rakesh-kohli-logo { position:relative; width:40px; height:40px; border-radius:50%; background-color:#168dff; transition: all 2s ease; }
+.navbar_fixed .rakesh-kohli-logo {margin-top:0px}
 .rakesh-kohli-logo:before {content:""; background-color:#fff; position:absolute; top:10px; left:10px; width:6px; height:6px; border-radius:50%; }
 .rakesh-kohli-logo:after {content:""; background-color:#fff; position:absolute; top:10px; right:10px; width:6px; height:6px; border-radius:50%; }
 .rakesh-kohli-logo:hover:before, .rakesh-kohli-logo:hover:after {height: 3px;}
@@ -12944,7 +12946,17 @@ background: linear-gradient(90deg, rgba(249,249,253,1) -70%, rgba(255,255,255,1)
     to{border-right-color: transparent;}
   }
 
+  @media (min-width: 991px) {
+    .rakesh-kohli-logo {
+        margin-top:-20px
+    }
+  }
+
   @media (max-width: 767px) {
+    .navbar-toggler {
+        margin-top: 20px;
+        margin-bottom: 15px;
+     }
     .banner_section .banner_inner {
         padding: 0px;
     }

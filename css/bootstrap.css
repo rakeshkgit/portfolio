@@ -10811,8 +10811,8 @@ body {
     .contact_info .info_item h6 {
       font-size: 16px;
       line-height: 24px;
-      color: "Roboto", sans-serif;
-      font-weight: bold;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
       margin-bottom: 0px;
       color: #000000; }
       .contact_info .info_item h6 a {

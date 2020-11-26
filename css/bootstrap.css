@@ -10030,12 +10030,14 @@ body {
         }
         .rakesh-kohli-img img:nth-child(2) {
             display: none;
+            cursor: wait;
         }
         .rakesh-kohli-img:hover img:nth-child(2) {
             display: block;
         }
         .rakesh-kohli-img:hover img:nth-child(1) {
             display: none;
+            cursor: wait;
         }
         @media (max-width: 1480px) {
           .banner_section .banner_inner .rakesh-kohli-img img {

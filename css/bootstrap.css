@@ -12961,7 +12961,8 @@ background: linear-gradient(90deg, rgba(249,249,253,1) -70%, rgba(255,255,255,1)
         margin-bottom: 15px;
      }
      .site-header .navbar .nav .nav-item .nav-link {
-         font-size: 18px;
+         font-size: 20px;
+         line-height: 40px;
      }
     .banner_section .banner_inner {
         padding: 0px;

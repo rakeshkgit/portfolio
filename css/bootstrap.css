@@ -9906,8 +9906,21 @@ body {
           display: inline-block; }
           .site-header .navbar .nav .nav-item .nav-link:after {
             display: none; }
+
         .site-header .navbar .nav .nav-item:hover .nav-link, .site-header .navbar .nav .nav-item.active .nav-link {
-          color: #168dff; }
+          /* color: #168dff;  */
+          -moz-animation: shine 12s linear infinite;
+          -webkit-animation: shine 12s linear infinite;
+          animation: shine 12s linear infinite;
+          background: linear-gradient(to right, #168dff  20%, #3064ff  40%, #168dff 60%, #168dff 80%);
+          background-size: 200% auto;
+          background-clip: text;
+          -webkit-background-clip: text;
+          background-color: transparent;
+          text-decoration: none;
+          color: transparent;
+        }
+
         .site-header .navbar .nav .nav-item.submenu {
           position: relative; }
           .site-header .navbar .nav .nav-item.submenu ul {
@@ -10021,8 +10034,10 @@ body {
     background-size: cover; }
     .banner_section .banner_inner {
       width: 100%; }
+      .rakesh-kohli-img {
+        margin-top: 50px;
+      }
         .rakesh-kohli-img img {
-            margin-top: 50px;
             border-radius: 50%;
             object-fit: contain;
             border:15px solid #f2f2f2;
@@ -12973,6 +12988,9 @@ background: linear-gradient(90deg, rgba(249,249,253,1) -70%, rgba(255,255,255,1)
         align-items: center;
         display: flex;
         flex-wrap: wrap;
+    }
+    .banner_section .banner_inner .banner_content h3:after { 
+        display: none;
     }
     .client-info .lage {
         font-size: 70px;

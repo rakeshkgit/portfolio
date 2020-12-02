@@ -14963,6 +14963,12 @@
     }
   }
   
+  @media (min-width: 1100px) {
+    .banner_section .banner_inner .banner_content {
+        margin-top: 50px;
+      }
+  }
+
   @media (min-width: 991px) {
     .rakesh-kohli-logo {
       margin-top: -20px;

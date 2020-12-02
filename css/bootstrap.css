@@ -10066,11 +10066,12 @@ body {
         @media (max-width: 991px) {
           .banner_section .banner_inner .banner_content {
             margin-top: 150px; } }
-        .banner_section .banner_inner .banner_content h3 {
+        .banner_section .banner_inner .banner_content h2 {
           font-size: 40px;
           margin-bottom: 20px;
+          font-family: "Knowledge-Bold", sans-serif;
           position: relative; }
-          .banner_section .banner_inner .banner_content h3:after {
+          .banner_section .banner_inner .banner_content h2:after {
             content: '';
             width: 410px;
             height: 2px;
@@ -10079,7 +10080,7 @@ body {
             left: 23%;
             background: #000000; }
             @media (max-width: 575px) {
-              .banner_section .banner_inner .banner_content h3:after {
+              .banner_section .banner_inner .banner_content h2:after {
                 display: none; } }
         .banner_section .banner_inner .banner_content h1 {
           margin-top: 20px;
@@ -10092,7 +10093,7 @@ body {
           @media (max-width: 767px) {
             .banner_section .banner_inner .banner_content h1 {
               font-size: 50px; } }
-        .banner_section .banner_inner .banner_content h5 {
+        .banner_section .banner_inner .banner_content h3 {
           font-size: 24px;
           margin-bottom: 35px; }
         .banner_section .banner_inner .banner_content .primary_btn {
@@ -12757,13 +12758,13 @@ body {
   
     /* End Blog Page Area css
     ============================================================================================ */
-    .banner_section .banner_inner .banner_content h3 {
+    .banner_section .banner_inner .banner_content h2 {
       font-size: 30px; }
   
     .banner_section .banner_inner .banner_content p br {
       display: none; }
   
-    .banner_section .banner_inner .banner_content h3 span {
+    .banner_section .banner_inner .banner_content h2 span {
       line-height: 45px;
       padding-bottom: 0px;
       padding-top: 0px; }
@@ -12814,7 +12815,7 @@ body {
     .banner_section .banner_inner .banner_content img {
       display: none; }
   
-    .banner_section .banner_inner .banner_content h5 {
+    .banner_section .banner_inner .banner_content h3 {
       margin-top: 0px; }
   
     .section_gap {
@@ -12859,7 +12860,7 @@ body {
       padding: 30px 15px;
       margin-top: 0px; }
   
-    .banner_section .banner_inner .banner_content h3 {
+    .banner_section .banner_inner .banner_content h2 {
       font-size: 24px; }
   
     /* End Home Banner Area css
@@ -12989,7 +12990,7 @@ background: linear-gradient(90deg, rgba(249,249,253,1) -70%, rgba(255,255,255,1)
         display: flex;
         flex-wrap: wrap;
     }
-    .banner_section .banner_inner .banner_content h3:after { 
+    .banner_section .banner_inner .banner_content h2:after { 
         display: none;
     }
     .client-info .lage {

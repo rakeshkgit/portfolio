@@ -12,9 +12,9 @@
 			$(window).scroll(function() {
 				var scroll = $(window).scrollTop();
 				if (scroll >= nav_offset_top) {
-					$('.site-header').addClass('navbar_fixed');
+					$('.site-header').addClass('sticky');
 				} else {
-					$('.site-header').removeClass('navbar_fixed');
+					$('.site-header').removeClass('sticky');
 				}
 			});
 		}

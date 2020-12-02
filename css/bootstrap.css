@@ -10876,7 +10876,7 @@
     margin-right: 0px;
   }
   
-  .site-header.navbar_fixed .main_menu {
+  .site-header.sticky .main_menu {
     position: fixed;
     width: 100%;
     top: -70px;
@@ -10889,7 +10889,7 @@
     box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   }
   
-  .site-header.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+  .site-header.sticky .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 70px;
   }
   
@@ -10917,15 +10917,15 @@
     color: #fff;
   }
   
-  .site-header.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img {
+  .site-header.white_menu.sticky .main_menu .navbar .navbar-brand img {
     display: inline-block;
   }
   
-  .site-header.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img + img {
+  .site-header.white_menu.sticky .main_menu .navbar .navbar-brand img + img {
     display: none;
   }
   
-  .site-header.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+  .site-header.white_menu.sticky .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 70px;
     color: #000000;
   }
@@ -14480,12 +14480,12 @@
       margin-top: 0px;
     }
   
-    .site-header.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+    .site-header.sticky .main_menu .navbar .nav .nav-item .nav-link {
       line-height: 40px;
       color: #fff;
     }
   
-    .site-header.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+    .site-header.white_menu.sticky .main_menu .navbar .nav .nav-item .nav-link {
       line-height: 40px;
       color: #fff;
     }
@@ -14874,7 +14874,7 @@
     transition: all 2s ease;
   }
   
-  .navbar_fixed .rakesh-kohli-logo {
+  .sticky .rakesh-kohli-logo {
     margin-top: 0px;
   }
   

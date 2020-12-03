@@ -15015,5 +15015,8 @@
     }
   }
   
-  @media (max-width: 399px) {
+  @media (max-width: 370px) {
+    .banner_section .banner_inner .banner_content h1 {
+      font-size: 42px;
+    }
   }

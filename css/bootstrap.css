@@ -14991,6 +14991,7 @@
     }
   
     .banner_section .banner_inner .banner_content {
+      min-height: 350px;
       padding: 100px 0 0 0px;
       align-items: center;
       display: flex;

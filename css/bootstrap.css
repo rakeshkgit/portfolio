@@ -14843,6 +14843,7 @@
 
   .btn-row .primary_btn {
     width: 48%;
+    font-size: 16px;
     white-space: nowrap;
   }
   }

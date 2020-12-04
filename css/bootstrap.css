@@ -14847,6 +14847,7 @@
 
   .btn-row .primary_btn {
     width: 48%;
+    white-space: nowrap;
   }
   }
   

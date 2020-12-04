@@ -505,7 +505,7 @@
     height: 99vh;
   }
   
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .vh {
       height: auto;
     }
@@ -10952,7 +10952,8 @@
   }
   
   .rakesh-kohli-img {
-    margin-top: 50px;
+    max-width: 360px;
+    margin: auto;
   }
   
   .rakesh-kohli-img img {
@@ -10995,6 +10996,9 @@
   @media (max-width: 991px) {
     .banner_section .banner_inner .banner_content {
       margin-top: 150px;
+    }
+    .rakesh-kohli-img { 
+      margin-top: 50px;
     }
   }
   
@@ -13871,7 +13875,8 @@
   
   @media only screen and (max-width: 991px) {
     .client-info {
-      margin-top: 50px;
+      margin-top: 0px;
+      margin-bottom: 20px;
     }
   }
   
@@ -14506,6 +14511,9 @@
     .banner_section {
       margin-top: 0;
     }
+    .banner_section .banner_inner {
+      padding: 0px;
+    }
    
       /* Footer Area css
       ============================================================================================ */
@@ -14601,13 +14609,6 @@
     .banner_section {
       min-height: 300px;
     }
-  
-    .banner_section .banner_inner {
-      min-height: 300px;
-      padding-top: 200px;
-      padding-bottom: 50px;
-    }
-  
     .banner_section .banner_inner .banner_content {
       margin-top: 0px;
     }
@@ -14995,10 +14996,6 @@
   
     .site-header .navbar .nav .nav-item .nav-link {
       font-size: 25px;
-    }
-  
-    .banner_section .banner_inner {
-      padding: 0px;
     }
   
     .banner_section .banner_inner .banner_content {

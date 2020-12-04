@@ -13875,14 +13875,7 @@
   
   @media only screen and (max-width: 991px) {
     .client-info {
-      margin-top: 0px;
-      margin-bottom: 20px;
-    }
-  }
-  
-  @media (max-width: 575px) {
-    .client-info {
-      padding-top: 50px;
+      margin-bottom: 30px;
     }
   }
   
@@ -14020,6 +14013,9 @@
     .portfolio_box .short_info {
       margin-top: 20px;
       margin-bottom: 40px;
+    }
+    .call-now {
+      margin-bottom: 15px;
     }
   }
   
@@ -14703,11 +14699,6 @@
       margin-top: 0px;
     }
   
-    .section_gap {
-      padding-top: 70px;
-      padding-bottom: 70px;
-    }
-  
     .main_title h2 {
       font-size: 25px;
     }
@@ -15012,10 +15003,6 @@
   
     .client-info .lage {
       font-size: 70px;
-    }
-  
-    .about_area, .client-info {
-      padding-top: 0px;
     }
   
     .features_area, .portfolio_area, .contact_area {

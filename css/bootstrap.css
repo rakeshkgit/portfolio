@@ -14765,8 +14765,8 @@
     .banner_area .banner_inner .banner_content h2 {
       font-size: 32px;
     }
-  
-    .testi_item .media .d-flex {
+
+   .testi_item .media .d-flex {
       padding-right: 0px;
     }
   
@@ -14839,6 +14839,15 @@
     .site-footer .footer_social a i {
       font-size: 25px;
     }
+    
+  .btn-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn-row .primary_btn {
+    width: 48%;
+  }
   }
   
   .site-footer .footer_social a i:hover {
@@ -14856,7 +14865,6 @@
   .site-footer .footer_bottom a {
     color: #777777;
   }
-    
     /* End Footer Area css
     ============================================================================================ */
     /*# sourceMappingURL=style.css.map */

@@ -10954,6 +10954,7 @@
   .rakesh-kohli-img {
     max-width: 360px;
     margin: auto;
+    margin-top: 50px;
   }
   
   .rakesh-kohli-img img {
@@ -10994,12 +10995,7 @@
   }
   
   @media (max-width: 991px) {
-    .banner_section .banner_inner .banner_content {
-      margin-top: 150px;
-    }
-    .rakesh-kohli-img { 
-      margin-top: 50px;
-    }
+
   }
   
   .banner_section .banner_inner .banner_content h2 {
@@ -11064,12 +11060,6 @@
     min-height: 485px;
   }
   
-  @media (max-width: 1199px) {
-    .banner_area {
-      min-height: 350px;
-    }
-  }
-  
   .banner_area .banner_inner {
     position: relative;
     overflow: hidden;
@@ -11082,27 +11072,39 @@
   }
   
   @media (max-width: 1199px) {
+    .banner_area {
+      min-height: 350px;
+    }
     .banner_area .banner_inner {
       min-height: 350px;
     }
-  }
-  
-  @media (max-width: 991px) {
-    .banner_area .banner_inner {
-      background: #3064ff;
-      width: 100%;
+    .rakesh-kohli-img {
+      margin-top: 0;
     }
   }
   
-  .banner_area .banner_inner .banner_content {
+ .banner_area .banner_inner .banner_content {
     margin-left: 50px;
     margin-top: 100px;
   }
   
   @media (max-width: 991px) {
+    .banner_section .banner_inner .banner_content {
+      margin-top: 150px;
+    }
+    .rakesh-kohli-img { 
+      margin-top: 50px;
+    }
+    .banner_area .banner_inner {
+      background: #3064ff;
+      width: 100%;
+    }
     .banner_area .banner_inner .banner_content {
       margin-left: 0px;
       margin-top: 50px;
+    }
+    .banner_area .banner_inner .banner_content h2 {
+      font-size: 30px;
     }
   }
   
@@ -11113,12 +11115,6 @@
     margin-bottom: 10px;
     text-transform: uppercase;
     font-weight: 700;
-  }
-  
-  @media (max-width: 991px) {
-    .banner_area .banner_inner .banner_content h2 {
-      font-size: 30px;
-    }
   }
   
   .banner_area .banner_inner .banner_content .page_link a {
@@ -14601,73 +14597,6 @@
     }
   }
   
-  @media (max-width: 767px) {
-    .banner_section {
-      min-height: 300px;
-    }
-    .banner_section .banner_inner .banner_content {
-      margin-top: 0px;
-    }
-  
-    .banner_section .banner_inner .banner_content .primary_btn {
-      display: none;
-    }
-    
-      /* Blog Page Area css
-      ============================================================================================ */
-    .blog_info.text-right {
-      text-align: left !important;
-      margin-bottom: 10px;
-    }
-    
-      /* End Blog Page Area css
-      ============================================================================================ */
-    .banner_section .banner_inner .banner_content h2 {
-      font-size: 30px;
-    }
-  
-    .banner_section .banner_inner .banner_content p br {
-      display: none;
-    }
-  
-    .banner_section .banner_inner .banner_content h2 span {
-      line-height: 45px;
-      padding-bottom: 0px;
-      padding-top: 0px;
-    }
-    
-      /* Footer Area css
-      ============================================================================================ */
-    .site-footer .f_title {
-      margin-bottom: 20px;
-    }
-  
-    .footer-bottom {
-      text-align: center;
-    }
-  
-    .footer-bottom .footer-social {
-      text-align: center;
-      margin-top: 15px;
-    }
-    
-      /* End End Footer Area css
-      ============================================================================================ */
-    .made_life_inner .nav.nav-tabs li {
-      flex: 0 0 50%;
-      max-width: 50%;
-      margin-bottom: 15px;
-    }
-  
-    .made_life_inner .nav.nav-tabs {
-      margin-bottom: -15px;
-    }
-  
-    .made_life_area.made_white .left_side_text {
-      margin-bottom: 0px;
-      margin-top: 30px;
-    }
-  }
   
   @media (max-width: 575px) {
     .site-header + section,
@@ -14789,12 +14718,7 @@
     text-align: center;
   }
   
-  @media (max-width: 1024px) {
-    .site-footer {
-      padding: 60px 0;
-    }
-  }
-  
+
   .site-footer .footer_logo {
     text-align: center;
   }
@@ -14824,23 +14748,7 @@
     transition: all 0.4s ease 0s;
   }
   
-  @media (max-width: 576px) {
-    .site-footer .footer_social a i {
-      font-size: 25px;
-    }
-    
-  .btn-row {
-    display: flex;
-    justify-content: space-between;
-  }
 
-  .btn-row .primary_btn {
-    width: 48%;
-    font-size: 16px;
-    white-space: nowrap;
-  }
-  }
-  
   .site-footer .footer_social a i:hover {
     color: #3064ff;
   }
@@ -14973,13 +14881,102 @@
       }
   }
 
+  @media (max-width: 1024px) {
+    .site-footer {
+      padding: 60px 0;
+    }
+  }
+
   @media (min-width: 991px) {
     .rakesh-kohli-logo {
       margin-top: -20px;
     }
   }
   
+  @media (max-width: 576px) {
+    .site-footer .footer_social a i {
+      font-size: 25px;
+    }
+    
+  .btn-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn-row .primary_btn {
+    width: 48%;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  }
+  
+
   @media (max-width: 767px) {
+    .banner_section {
+      min-height: 300px;
+    }
+    .banner_section .banner_inner .banner_content {
+      margin-top: 0px;
+    }
+  
+    .banner_section .banner_inner .banner_content .primary_btn {
+      display: none;
+    }
+    
+      /* Blog Page Area css
+      ============================================================================================ */
+    .blog_info.text-right {
+      text-align: left !important;
+      margin-bottom: 10px;
+    }
+    
+      /* End Blog Page Area css
+      ============================================================================================ */
+    .banner_section .banner_inner .banner_content h2 {
+      font-size: 30px;
+    }
+  
+    .banner_section .banner_inner .banner_content p br {
+      display: none;
+    }
+  
+    .banner_section .banner_inner .banner_content h2 span {
+      line-height: 45px;
+      padding-bottom: 0px;
+      padding-top: 0px;
+    }
+    
+      /* Footer Area css
+      ============================================================================================ */
+    .site-footer .f_title {
+      margin-bottom: 20px;
+    }
+  
+    .footer-bottom {
+      text-align: center;
+    }
+  
+    .footer-bottom .footer-social {
+      text-align: center;
+      margin-top: 15px;
+    }
+    
+      /* End End Footer Area css
+      ============================================================================================ */
+    .made_life_inner .nav.nav-tabs li {
+      flex: 0 0 50%;
+      max-width: 50%;
+      margin-bottom: 15px;
+    }
+  
+    .made_life_inner .nav.nav-tabs {
+      margin-bottom: -15px;
+    }
+  
+    .made_life_area.made_white .left_side_text {
+      margin-bottom: 0px;
+      margin-top: 30px;
+    }
     .navbar-toggler {
       margin-top: 20px;
       margin-bottom: 15px;
@@ -15000,11 +14997,9 @@
     .banner_section .banner_inner .banner_content h2:after {
       display: none;
     }
-  
     .client-info .lage {
       font-size: 70px;
     }
-  
     .features_area, .portfolio_area, .contact_area {
       padding-top: 120px;
     }

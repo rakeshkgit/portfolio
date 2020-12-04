@@ -14894,7 +14894,8 @@
     }
   }
   
-  @media (max-width: 576px) {
+
+  @media (max-width: 767px) {
     .site-footer .footer_social a i {
       font-size: 25px;
     }
@@ -14902,6 +14903,7 @@
   .btn-row {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
   }
 
   .btn-row .primary_btn {
@@ -14909,10 +14911,6 @@
     font-size: 16px;
     white-space: nowrap;
   }
-  }
-  
-
-  @media (max-width: 767px) {
     .banner_section {
       min-height: 300px;
     }

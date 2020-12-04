@@ -93,6 +93,7 @@
   
   html,body {
     font-family: 'Knowledge-Regular';
+    overflow-x: hidden;
   }
   
   article,

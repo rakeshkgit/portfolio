@@ -15023,8 +15023,11 @@
     .features_area, .portfolio_area, .contact_area {
       padding-top: 120px;
     }
-    .testi_text {
+    .testi_item .testi_text {
       margin-top: 20px;
+    }
+    .testi_item .testi_text h4 {
+      margin-bottom: 10px;
     }
   }
   

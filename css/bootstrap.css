@@ -14440,7 +14440,7 @@
     }
   
     .nav {
-      padding: 0px 0px;
+      padding: 0px 0px 10px 0px;
     }
   
     .site-header + section,
@@ -14454,10 +14454,10 @@
     }
   
     .site-header .navbar .nav .nav-item .nav-link {
-      line-height: 40px;
+      line-height: 60px;
       margin-right: 0px;
       display: block;
-      border-bottom: 1px solid #ededed33;
+      border-top: 1px solid #ededed33;
       border-radius: 0px;
       color: #fff;
     }
@@ -14466,17 +14466,16 @@
       margin-left: 0px;
     }
   
-    .site-header .navbar-collapse {
-      max-height: 340px;
-      overflow-y: scroll;
-    }
-  
     .site-header .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
       padding: 0px 15px;
     }
   
-    .site-header .navbar .nav .nav-item {
+    .site-header .navbar .nav .nav-item a {
       margin-right: 0px;
+    }
+
+    .site-header .navbar .nav .nav-item:last-child a {
+      border-bottom: 1px solid #ededed33;
     }
   
     .site-header + section,
@@ -14486,7 +14485,7 @@
     }
   
     .site-header.sticky .main_menu .navbar .nav .nav-item .nav-link {
-      line-height: 40px;
+      line-height: 60px;
       color: #fff;
     }
   
@@ -14743,10 +14742,7 @@
   @media (max-width: 480px) {
       /* Main Menu Area css
       ============================================================================================ */
-    .site-header .navbar-collapse {
-      max-height: 250px;
-    }
-    
+   
       /* End Main Menu Area css
       ============================================================================================ */
       /* Home Banner Area css
@@ -14996,8 +14992,7 @@
     }
   
     .site-header .navbar .nav .nav-item .nav-link {
-      font-size: 20px;
-      line-height: 50px;
+      font-size: 25px;
     }
   
     .banner_section .banner_inner {

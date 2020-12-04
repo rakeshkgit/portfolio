@@ -14903,7 +14903,7 @@
   .btn-row {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
 
   .btn-row .primary_btn {

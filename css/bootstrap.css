@@ -10692,7 +10692,7 @@
     font-size: 14px;
     line-height: 46px;
     outline: none !important;
-    text-align: center;
+    text-align: center !important;
     cursor: pointer;
     text-transform: uppercase;
     border-radius: 5px;
@@ -13702,6 +13702,9 @@
     /*----------------------------------------------------*/
     /* Start About Us Area css
     ============================================================================================ */
+  .aboutme {
+    text-align: left;
+  }
   .about_area {
     position: relative;
   }

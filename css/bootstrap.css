@@ -14911,10 +14911,12 @@
     padding-bottom: 30px;
   }
 
-  .btn-row .primary_btn {
-    width: 48%;
+  .primary_btn {
     font-size: 20px;
     white-space: nowrap;
+  }
+  .btn-row .primary_btn {
+    width: 48%;
   }
   .aboutme .primary_btn span {
     padding: 0;

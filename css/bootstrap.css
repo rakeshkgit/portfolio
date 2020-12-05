@@ -10704,7 +10704,7 @@
   }
   
   .primary_btn span {
-    padding: 0 42px;
+    padding: 0 30px;
   }
   
   .primary_btn.tr-bg {
@@ -14916,7 +14916,7 @@
     font-size: 20px;
     white-space: nowrap;
   }
-  .primary_btn span {
+  .aboutme .primary_btn span {
     padding: 0;
   }
     .banner_section {

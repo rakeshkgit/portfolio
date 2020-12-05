@@ -14913,9 +14913,8 @@
 
   .btn-row .primary_btn {
     width: 48%;
-    font-size: 16px;
+    font-size: 18px;
     white-space: nowrap;
-    text-align: center;
   }
   .primary_btn span {
     padding: 0;

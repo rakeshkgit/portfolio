@@ -10940,14 +10940,14 @@
     /*----------------------------------------------------*/
     /* Home Banner Area css
     ============================================================================================ */
-  .banner_section {
+  .section-hero {
     z-index: 1;
     background: url(../img/banner/home-banner.png) no-repeat top center;
     background-position: center;
     background-size: cover;
   }
   
-  .banner_section .banner_inner {
+  .section-hero .banner_inner {
     width: 100%;
   }
   
@@ -10979,18 +10979,18 @@
   }
   
   @media (max-width: 1480px) {
-    .banner_section .banner_inner .rakesh-kohli-img img {
+    .section-hero .banner_inner .rakesh-kohli-img img {
       max-width: 100%;
       height: auto;
     }
   }
   
-  .banner_section .banner_inner .col-lg-7 {
+  .section-hero .banner_inner .col-lg-7 {
     vertical-align: middle;
     align-self: center;
   }
   
-  .banner_section .banner_inner .banner_content {
+  .section-hero .banner_inner .banner_content {
     text-align: left;
   }
   
@@ -10998,14 +10998,14 @@
 
   }
   
-  .banner_section .banner_inner .banner_content h2 {
+  .section-hero .banner_inner .banner_content h2 {
     font-size: 40px;
     margin-bottom: 20px;
     font-family: "Knowledge-Bold", sans-serif;
     position: relative;
   }
   
-  .banner_section .banner_inner .banner_content h2:after {
+  .section-hero .banner_inner .banner_content h2:after {
     content: '';
     width: 410px;
     height: 2px;
@@ -11016,12 +11016,12 @@
   }
   
   @media (max-width: 575px) {
-    .banner_section .banner_inner .banner_content h2:after {
+    .section-hero .banner_inner .banner_content h2:after {
       display: none;
     }
   }
   
-  .banner_section .banner_inner .banner_content h1 {
+  .section-hero .banner_inner .banner_content h1 {
     margin-top: 20px;
     font-size: 70px;
     line-height: 60px;
@@ -11029,29 +11029,29 @@
   }
   
   @media (max-width: 1024px) {
-    .banner_section .banner_inner .banner_content h1 {
+    .section-hero .banner_inner .banner_content h1 {
       font-size: 60px;
     }
   }
   
   @media (max-width: 767px) {
-    .banner_section .banner_inner .banner_content h1 {
+    .section-hero .banner_inner .banner_content h1 {
       font-size: 50px;
     }
   }
   @media (max-width: 369px) {
-    .banner_section .banner_inner .banner_content h1 {
+    .section-hero .banner_inner .banner_content h1 {
       font-size: 42px;
       line-height: 50px;
     }
   }
   
-  .banner_section .banner_inner .banner_content h3 {
+  .section-hero .banner_inner .banner_content h3 {
     font-size: 24px;
     margin-bottom: 35px;
   }
   
-  .banner_section .banner_inner .banner_content .primary_btn {
+  .section-hero .banner_inner .banner_content .primary_btn {
     margin-right: 20px;
   }
   
@@ -11090,7 +11090,7 @@
   }
   
   @media (max-width: 991px) {
-    .banner_section .banner_inner .banner_content {
+    .section-hero .banner_inner .banner_content {
       margin-top: 150px;
     }
     .rakesh-kohli-img { 
@@ -13705,40 +13705,40 @@
   .aboutme {
     text-align: left;
   }
-  .about_area {
+  .section-aboutme {
     position: relative;
   }
   
-  .about_area .main_title {
+  .section-aboutme .main_title {
     margin-bottom: 0px;
   }
   
-  .about_area .main_title p {
+  .section-aboutme .main_title p {
     margin-bottom: 20px;
   }
   
-  .about_area .primary_btn {
+  .section-aboutme .primary_btn {
     margin-top: 20px;
   }
   
-  .about_area .about_img {
+  .section-aboutme .about_img {
     position: relative;
     right: 250px;
   }
   
   @media (max-width: 1480px) {
-    .about_area .about_img {
+    .section-aboutme .about_img {
       right: 0;
     }
   
-    .about_area .about_img img {
+    .section-aboutme .about_img img {
       max-width: 100%;
       height: auto;
     }
   }
   
   @media (max-width: 991px) {
-    .about_area .about_img {
+    .section-aboutme .about_img {
       display: none;
     }
   }
@@ -14141,12 +14141,12 @@
     ============================================================================================ */
     /* Start Testimonial Area css
     ============================================================================================ */
-  .testimonial_area .owl-carousel .owl-dots {
+  .section-testimonial .owl-carousel .owl-dots {
     display: block !important;
     text-align: center;
   }
   
-  .testimonial_area .owl-carousel .owl-dots .owl-dot {
+  .section-testimonial .owl-carousel .owl-dots .owl-dot {
     height: 10px;
     width: 10px;
     background: #d8d8d8;
@@ -14159,28 +14159,27 @@
     transition: all 0.4s ease 0s;
   }
   
-  .testimonial_area .owl-carousel .owl-dots .owl-dot.active {
+  .section-testimonial .owl-carousel .owl-dots .owl-dot.active {
     height: 12px;
     width: 12px;
     background: #3064ff;
   }
   
   @media (max-width: 991px) {
-    .testimonial_area .owl-carousel .owl-dots {
+    .section-testimonial .owl-carousel .owl-dots {
       display: none !important;
     }
   }
   
-  .testimonial_area .owl-carousel .owl-item img {
+  .section-testimonial .owl-carousel .owl-item img {
     width: auto !important;
   }
   
-  .testi_item {
+  .item-testimonial {
     background: #fff;
-    padding: 50px 55px;
-    margin-bottom: 100px;
-    margin-left: 10px;
-    margin: 0px 10px 80px;
+    padding:40px 30px 50px 30px;
+    margin-bottom: 50px;
+    min-height: 235px;
     box-shadow: 0px 15px 30px 0px rgba(221, 221, 221, 0.5);
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -14189,43 +14188,43 @@
   }
   
   @media (max-width: 991px) {
-    .testi_item {
+    .item-testimonial {
       margin-bottom: 0px;
     }
   }
   
   @media (max-width: 575px) {
-    .testi_item {
+    .item-testimonial {
       padding: 30px 20px;
     }
   }
   
-  .testi_item img {
+  .item-testimonial img {
     border-radius: 5px;
   }
   
-  .testi_item .col-lg-8 {
+  .item-testimonial .col-lg-8 {
     vertical-align: middle;
     align-self: center;
   }
   
   @media (max-width: 991px) {
-    .testi_item .testi_text {
+    .item-testimonial .content {
       margin-top: 50px;
     }
   }
   
-  .testi_item .testi_text h4 {
+  .item-testimonial .content h4 {
     font-size: 20px;
     margin-bottom: 15px;
     text-transform: uppercase;
   }
   
-  .testi_item .testi_text p {
+  .item-testimonial .content p {
     margin-bottom: 0px;
   }
   
-  .testi_item:hover {
+  .item-testimonial:hover {
     box-shadow: 0px 10px 20px 0px rgba(118, 85, 225, 0.1);
   }
     
@@ -14369,7 +14368,7 @@
       ============================================================================================ */
       /* Home Banner Area css
       ============================================================================================ */
-    .banner_section .banner_inner {
+    .section-hero .banner_inner {
       padding: 100px 0px;
     }
     
@@ -14379,12 +14378,12 @@
       margin-left: 40px;
     }
   
-    .banner_section .banner_inner .banner_content h2 br {
+    .section-hero .banner_inner .banner_content h2 br {
       display: none;
       font-size: 36px;
     }
   
-    .banner_section .banner_inner .banner_content h2 {
+    .section-hero .banner_inner .banner_content h2 {
       font-size: 36px;
       line-height: 45px;
     }
@@ -14505,10 +14504,10 @@
       ============================================================================================ */
       /* Start Home banner Area css
       ============================================================================================ */
-    .banner_section {
+    .section-hero {
       margin-top: 0;
     }
-    .banner_section .banner_inner {
+    .section-hero .banner_inner {
       padding: 0px;
     }
    
@@ -14555,11 +14554,11 @@
     
       /* End Contact page Area css
       ============================================================================================ */
-    .banner_section .donation_inner {
+    .section-hero .donation_inner {
       margin-bottom: -30px;
     }
   
-    .banner_section .dontation_item {
+    .section-hero .dontation_item {
       max-width: 350px;
       margin: auto;
     }
@@ -14580,7 +14579,7 @@
     
       /* End End Footer Area css
       ============================================================================================ */
-    .banner_section .banner_inner .home_left_img {
+    .section-hero .banner_inner .home_left_img {
       display: none;
     }
   
@@ -14612,24 +14611,24 @@
     
       /* Home Banner Area css
       ============================================================================================ */
-    .banner_section .banner_inner .banner_content h2 {
+    .section-hero .banner_inner .banner_content h2 {
       font-size: 28px;
       line-height: 38px;
     }
   
-    .banner_section {
+    .section-hero {
       min-height: 450px;
     }
   
-    .banner_section .banner_inner {
+    .section-hero .banner_inner {
       min-height: 450px;
     }
   
-    .banner_section .banner_inner .banner_content img {
+    .section-hero .banner_inner .banner_content img {
       display: none;
     }
   
-    .banner_section .banner_inner .banner_content h3 {
+    .section-hero .banner_inner .banner_content h3 {
       margin-top: 0px;
       font-size: 23px;
     }
@@ -14675,12 +14674,12 @@
       ============================================================================================ */
       /* Home Banner Area css
       ============================================================================================ */
-    .banner_section .banner_inner .banner_content {
+    .section-hero .banner_inner .banner_content {
       padding: 30px 15px;
       margin-top: 0px;
     }
   
-    .banner_section .banner_inner .banner_content h2 {
+    .section-hero .banner_inner .banner_content h2 {
       font-size: 24px;
     }
     
@@ -14690,16 +14689,16 @@
       font-size: 32px;
     }
 
-   .testi_item .media .d-flex {
+   .item-testimonial .media .d-flex {
       padding-right: 0px;
     }
   
-    .testi_item .media .d-flex img {
+    .item-testimonial .media .d-flex img {
       width: auto;
       margin-bottom: 15px;
     }
   
-    .testi_item .media {
+    .item-testimonial .media {
       display: block;
     }
   }
@@ -14882,7 +14881,7 @@
   }
   
   @media (min-width: 1100px) {
-    .banner_section .banner_inner .banner_content {
+    .section-hero .banner_inner .banner_content {
         margin-top: 50px;
       }
   }
@@ -14921,14 +14920,14 @@
   .aboutme .primary_btn span {
     padding: 0;
   }
-    .banner_section {
+    .section-hero {
       min-height: 300px;
     }
-    .banner_section .banner_inner .banner_content {
+    .section-hero .banner_inner .banner_content {
       margin-top: 0px;
     }
   
-    .banner_section .banner_inner .banner_content .primary_btn {
+    .section-hero .banner_inner .banner_content .primary_btn {
       display: none;
     }
     
@@ -14941,15 +14940,15 @@
     
       /* End Blog Page Area css
       ============================================================================================ */
-    .banner_section .banner_inner .banner_content h2 {
+    .section-hero .banner_inner .banner_content h2 {
       font-size: 30px;
     }
   
-    .banner_section .banner_inner .banner_content p br {
+    .section-hero .banner_inner .banner_content p br {
       display: none;
     }
   
-    .banner_section .banner_inner .banner_content h2 span {
+    .section-hero .banner_inner .banner_content h2 span {
       line-height: 45px;
       padding-bottom: 0px;
       padding-top: 0px;
@@ -14995,7 +14994,7 @@
       font-size: 25px;
     }
   
-    .banner_section .banner_inner .banner_content {
+    .section-hero .banner_inner .banner_content {
       min-height: 350px;
       padding: 100px 0 0 0px;
       align-items: center;
@@ -15003,7 +15002,7 @@
       flex-wrap: wrap;
     }
   
-    .banner_section .banner_inner .banner_content h2:after {
+    .section-hero .banner_inner .banner_content h2:after {
       display: none;
     }
     .client-info .lage {
@@ -15012,10 +15011,10 @@
     .features_area, .portfolio_area, .contact_area {
       padding-top: 120px;
     }
-    .testi_item .testi_text {
+    .item-testimonial .content {
       margin-top: 20px;
     }
-    .testi_item .testi_text h4 {
+    .item-testimonial .content h4 {
       margin-bottom: 10px;
     }
   }

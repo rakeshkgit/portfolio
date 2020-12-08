@@ -11773,7 +11773,7 @@
     text-decoration: none;
     border-color: #eee;
   }
-    
+   
     /*============ Start Blog Single Styles  =============*/
   .single-post-area .social-links {
     padding-top: 10px;
@@ -13761,6 +13761,10 @@
     ============================================================================================ */
     /* Start Features Area css
     ============================================================================================ */
+  .section-services {
+    padding-top: 160px;
+    padding-bottom: 60px;
+  }
   .features_area {
     padding-bottom: 170px;
   }
@@ -13771,7 +13775,7 @@
     }
   }
   
-  .feature_item {
+ .section-services .skills {
     padding: 45px 25px;
     text-align: center;
     background: #f9f9fd;
@@ -13783,21 +13787,21 @@
     transition: all 0.4s ease 0s;
   }
   
-  .feature_item img {
+  .skills img {
     margin-bottom: 35px;
   }
   
-  .feature_item h4 {
+  .skills h4 {
     font-size: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
   }
   
-  .feature_item p {
+  .skills p {
     margin-bottom: 0px;
   }
   
-  .feature_item:hover {
+  .skills:hover {
     box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
     background: #fff;
     cursor: none;
@@ -14844,7 +14848,7 @@
     background: linear-gradient(90deg, rgba(249,249,253,1) -70%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(249,249,253,1) 45%, rgba(249,249,253,1) 55%, rgba(255,255,255,1) 100%);
   }
   
-  .feature_item .fa {
+  .skills .fa {
     font-size: 50px;
     color: #168dff;
     margin-bottom: 15px;
@@ -15020,11 +15024,18 @@
     .item-testimonial .content h4 {
       margin-bottom: 10px;
     }
-    .feature_item .fa {
+    .skills .fa {
       font-size: 70px;
     }
-    .feature_item p {
+    .skills h3 {
+      font-size: 27px;
+    }
+    .skills p {
       font-size: 18px;
+    }
+    .section-services {
+      padding-top: 120px;
+      padding-bottom: 30px;
     }
   }
   

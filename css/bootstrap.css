@@ -15024,6 +15024,10 @@
     .item-testimonial .content h4 {
       margin-bottom: 10px;
     }
+    .section-services .skills {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
     .skills .fa {
       font-size: 70px;
     }

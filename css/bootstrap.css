@@ -15020,5 +15020,11 @@
     .item-testimonial .content h4 {
       margin-bottom: 10px;
     }
+    .feature_item .fa {
+      font-size: 70px;
+    }
+    .feature_item p {
+      font-size: 18px;
+    }
   }
   

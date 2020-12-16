@@ -13996,7 +13996,17 @@
   }
   
   .portfolio_area .filters ul li:hover, .portfolio_area .filters ul li.active {
-    color: #3064ff;
+    /* color: #3064ff; */
+    -moz-animation: shine 12s linear infinite;
+    -webkit-animation: shine 12s linear infinite;
+    animation: shine 12s linear infinite;
+    background: linear-gradient(to right, #168dff  20%, #3064ff  40%, #168dff 60%, #168dff 80%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-color: transparent;
+    text-decoration: none;
+    color: transparent;
   }
   
   @media (max-width: 767px) {

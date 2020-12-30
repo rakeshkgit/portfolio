@@ -10672,7 +10672,7 @@
     background: linear-gradient(90deg, #168dff 0%, #3064ff 100%);
   }
   
-  .gradient-color, .contact_info .info_item i {
+  .gradient-color {
     background: -webkit-linear-gradient(90deg, #168dff 0%, #3064ff 100%);
     background: -moz-linear-gradient(90deg, #168dff 0%, #3064ff 100%);
     background: -o-linear-gradient(90deg, #168dff 0%, #3064ff 100%);
@@ -12112,13 +12112,17 @@
     padding-left: 45px;
   }
   
+  .contact_info .info_item:hover i {
+    color: #168dff;
+  }
+
   .contact_info .info_item i {
     position: absolute;
-    left: 0;
+    left: 5px;
     top: 0;
-    font-size: 20px;
+    font-size: 150%;
     line-height: 24px;
-    font-weight: 600;
+    font-weight: 400;
   }
   
   .contact_info .info_item h6 {

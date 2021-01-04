@@ -12141,7 +12141,6 @@
   .contact_info .info_item p {
     font-size: 14px;
     line-height: 24px;
-    padding: 2px 0px;
   }
   
   .contact_form .form-group {
@@ -14952,15 +14951,11 @@
       display: none;
     }
     
-      /* Blog Page Area css
-      ============================================================================================ */
     .blog_info.text-right {
       text-align: left !important;
       margin-bottom: 10px;
     }
-    
-      /* End Blog Page Area css
-      ============================================================================================ */
+
     .section-hero .banner_inner .banner_content h2 {
       font-size: 30px;
     }
@@ -14975,8 +14970,6 @@
       padding-top: 0px;
     }
     
-      /* Footer Area css
-      ============================================================================================ */
     .site-footer .f_title {
       margin-bottom: 20px;
     }
@@ -14990,8 +14983,6 @@
       margin-top: 15px;
     }
     
-      /* End End Footer Area css
-      ============================================================================================ */
     .made_life_inner .nav.nav-tabs li {
       flex: 0 0 50%;
       max-width: 50%;

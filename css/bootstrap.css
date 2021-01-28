@@ -15055,4 +15055,6 @@
       padding-bottom: 30px;
     }
   }
-  
+  .single_portfolio img {
+    max-width: 100%;
+  }

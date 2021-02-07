@@ -10774,7 +10774,7 @@
     display: none;
   }
   
-  .site-header .navbar .nav .nav-item:hover .nav-link, .site-header .navbar .nav .nav-item.active .nav-link {
+  .site-header .navbar .nav .nav-item:hover .nav-link, .site-header .navbar .nav .nav-item.active .nav-link, .years-info .lage, .call-now p {
             /* color: #168dff;  */
     -moz-animation: shine 12s linear infinite;
     -webkit-animation: shine 12s linear infinite;
@@ -13874,7 +13874,7 @@
     -webkit-filter: brightness(0%);
   }
   
-  .client-info {
+  .years-info {
     padding: 25px 30px;
     background: #faf8ff;
     text-align: center;
@@ -13883,12 +13883,12 @@
   }
   
   @media only screen and (max-width: 991px) {
-    .client-info {
+    .years-info {
       margin-bottom: 30px;
     }
   }
   
-  .client-info:before {
+  .years-info:before {
     content: '';
     position: absolute;
     top: -25px;
@@ -13899,20 +13899,20 @@
   }
   
   @media (max-width: 575px) {
-    .client-info:before {
+    .years-info:before {
       background: none;
     }
   }
   
   @media (max-width: 575px) {
-    .client-info .d-flex {
+    .years-info .d-flex {
       -ms-flex-align: center;
       align-items: center;
     }
   }
   
-  .client-info .lage {
-    color: #3064ff;
+  .years-info .lage {
+    /* color: #168dff; */
     font-family: "Rubik", sans-serif;
     font-size: 100px;
     font-weight: 700;
@@ -13921,7 +13921,7 @@
     z-index: 9;
   }
   
-  .client-info .smll {
+  .years-info .smll {
     text-align: left;
     color: #000000;
     font-family: "Rubik", sans-serif;
@@ -13948,7 +13948,7 @@
   }
   
   .call-now p {
-    color: #3064ff;
+    /* color: #168dff; */
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -15026,7 +15026,7 @@
     .section-hero .banner_inner .banner_content h2:after {
       display: none;
     }
-    .client-info .lage {
+    .years-info .lage {
       font-size: 70px;
     }
     .features_area, .portfolio_area, .contact_area {

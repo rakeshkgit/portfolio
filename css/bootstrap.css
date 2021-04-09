@@ -14758,25 +14758,27 @@
   
   .site-footer .footer_social {
     text-align: center;
-    margin: 25px 0px 30px;
+    margin: 15px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer_social h4 {
+    margin-bottom:5px;
   }
   
   .site-footer .footer_social a {
-    padding: 0 20px;
+    padding-left: 10px;
   }
   
   .site-footer .footer_social a i {
-    color: #788489;
+    color: #3064ff;
     font-size: 22px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-  }
-  
-
-  .site-footer .footer_social a i:hover {
-    color: #3064ff;
   }
   
   .site-footer .footer_bottom {

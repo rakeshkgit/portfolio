@@ -123,6 +123,49 @@
   [tabindex="-1"]:focus {
     outline: 0 !important;
   }
+
+
+  .bg-shapes {
+    position: absolute;
+    top: -93px;
+    left: -620px;
+    width: 1500px;
+    pointer-events: none;
+
+  }
+  .right-triangle {
+    animation: insight-shape-bounce 3s infinite alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  .left-triangle-right {
+    animation: insight-shape-bounce 4s infinite alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: -3s;
+  }
+
+  .left-triangle-middle {
+    animation: insight-shape-bounce 4s infinite alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: -2s;
+  }
+  
+  .left-triangle-left {
+    animation: insight-shape-bounce 4s infinite alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: -1s;
+  }
+
+  @keyframes insight-shape-bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-100px);
+    }
+  }
+
+
   
   hr {
     box-sizing: content-box;
@@ -10743,7 +10786,6 @@
     position: absolute;
     width: 100%;
     z-index: 9999;
-    background: #ffffff;
   }
   
   .site-header .menu_nav {
@@ -13789,6 +13831,8 @@
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+    position: relative;
+    overflow: hidden;
   }
   
   .skills img {

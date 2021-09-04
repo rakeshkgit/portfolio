@@ -14105,8 +14105,8 @@
   
   .single_portfolio .icon {
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 52%;
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -14139,8 +14139,6 @@
   .single_portfolio:hover .icon {
     opacity: 1;
     visibility: visible;
-    top: 50%;
-    left: 50%;
   }
   
   .portfolio_details_inner .row {
@@ -15103,4 +15101,19 @@
   }
   .single_portfolio img {
     max-width: 100%;
+  }
+
+  .single_portfolio .icon svg {
+    animation: hand-shape-bounce 2s infinite alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: -1s;
+  }
+
+  @keyframes hand-shape-bounce {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(-30px);
+    }
   }
